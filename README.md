@@ -221,7 +221,7 @@ The Prometheus exported metrics are compatible with the Grafana dashboard, [see 
 Important! The HTTP console is meant to be accessed within a safe network. If you expose Dragonfly's TCP port externally, we advise you to disable the console with `--http_admin_console=false` or `--nohttp_admin_console`.
 
 
-## <a name="background"><a/>Background
+## <a name="cesarJrivera"><a/> cesarJrivera 
 
 Dragonfly started as an experiment to see how an in-memory datastore could look if it was designed in 2022. Based on lessons learned from our experience as users of memory stores and engineers who worked for cloud companies, we knew that we need to preserve two key properties for Dragonfly: Atomicity guarantees for all operations and low, sub-millisecond latency over very high throughput.
 
